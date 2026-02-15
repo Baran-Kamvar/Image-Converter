@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/python-3.7+-blue.svg" alt="Python">
 <img src="https://img.shields.io/github/issues/Baran-Kamvar/Image-Converter" alt="issues">
 </div>
-
+<br>
 📸 Overview
 Image Converter is a modern desktop application with a graphical interface designed for quick and easy conversion of hundreds of images to various formats. With a beautiful dark UI, WebP support, and intelligent handling of oversized images, this tool is the perfect choice for web image optimization, archiving, or format standardization.
 
@@ -78,35 +78,35 @@ pip install -r requirements.txt
 ```
 👩‍💻Download and Run
 
-1.Clone the repository:
+1. Clone the repository :
 ```
 git clone https://github.com/yourusername/image-converter.git
 cd image-converter
 ```
-2.Install packages:
+2. Install packages :
 ```
 pip install -r requirements.txt
 ```
-3.Run the application:
+3. Run the application :
 ```
 python image_converter.py
 ```
 --------
 
 💻 Usage
-```
-🖼️ GUI Mode (Recommended)
-1.Select Input Folder: Click "Browse" next to "Input Folder"
-2.Select Output Folder: Specify the save destination
-3.Configure Formats: Choose input and output formats
-4.Adjust Quality: Set the slider between 60 and 100
-5.Additional Options:
-  - ☑️ Process Subfolders
-  - ☑️ Lossless Mode
+
+🖼️ GUI Mode (Recommended)  
+1. Select Input Folder: Click "Browse" next to "Input Folder"  
+2. Select Output Folder: Specify the save destination  
+3. Configure Formats: Choose input and output formats  
+4. Adjust Quality: Set the slider between 60 and 100  
+5. Additional Options:  
+  - ☑️ Process Subfolders  
+  - ☑️ Lossless Mode  
   - ☑️ Delete Originals
-6.Choose Oversized Handling: Resize / Skip / Convert to JPG
-7.Start: Click "Start Converting"! 😀
-```
+
+6. Choose Oversized Handling: Resize / Skip / Convert to JPG  
+7. Start: Click "Start Converting"! 😀  
 
 -------
 
