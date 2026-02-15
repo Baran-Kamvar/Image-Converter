@@ -1,8 +1,9 @@
-# 🎨 Image-Converter
+# 🖼️ Image-Converter
 <div align="left">
 <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
 <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg" alt="Version">
 <img src="https://img.shields.io/badge/python-3.7+-blue.svg" alt="Python">
+<img src="https://img.shields.io/github/issues/Baran-Kamvar/Image-Converter" alt="issues">
 </div>
 
 📸 Overview
@@ -46,15 +47,71 @@ Images larger than 16383 pixels (WebP limitation) are automatically managed:
 - 🔍 Smart transparency handling: Automatic white background conversion for JPG
 
 -----------
-
+```
 BMP    ┐
-TIFF   ┤
+JPG    ┤
 HEIC   ┤                             
 GIF    ┤                             
-JPG    ├──► [ Conversion Engine ] ├──► JPG
+TIFF   ├──► [ Conversion Engine ] ├──► JPG
 PNG    ┤                          ├──► PNG
 JPEG   ┤                          └──► WEBP                             
 TIF    ┤
 WEBP   ┘
 
+```
 ---------
+
+🚀 Installation
+
+🔑Prerequisites
+```
+Python 3.7 or higher
+```
+🔎Install Dependencies
+```
+pip install pillow customtkinter
+```
+
+Or use requirements file (if available):
+```
+pip install -r requirements.txt
+```
+👩‍💻Download and Run
+
+1.Clone the repository:
+```
+git clone https://github.com/yourusername/image-converter.git
+cd image-converter
+```
+2.Install packages:
+```
+pip install -r requirements.txt
+```
+3.Run the application:
+```
+python image_converter.py
+```
+--------
+
+💻 Usage
+```
+🖼️ GUI Mode (Recommended)
+1.Select Input Folder: Click "Browse" next to "Input Folder"
+2.Select Output Folder: Specify the save destination
+3.Configure Formats: Choose input and output formats
+4.Adjust Quality: Set the slider between 60 and 100
+5.Additional Options:
+  - ☑️ Process Subfolders
+  - ☑️ Lossless Mode
+  - ☑️ Delete Originals
+6.Choose Oversized Handling: Resize / Skip / Convert to JPG
+7.Start: Click "Start Converting"! 😀
+```
+
+-------
+
+📞 Contact and Support  
+
+🐛 Bug Reports: [Issues](https://github.com/Baran-Kamvar/Image-Converter/issues)  
+💬 Q&A: [Discussions](https://github.com/username/Image-Converter/discussions)  
+📧 Email: [barankamvar1@gmail.com](mailto:barankamvar1@gmail.com)
