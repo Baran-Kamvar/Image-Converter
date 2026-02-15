@@ -112,6 +112,6 @@ python image_converter.py
 
 📞 Contact and Support  
 
-🐛 Bug Reports: [Issues](https://github.com/Baran-Kamvar/Image-Converter/issues)  
-💬 Q&A: [Discussions](https://github.com/username/Image-Converter/discussions)  
-📧 Email: [barankamvar1@gmail.com](mailto:barankamvar1@gmail.com)
+- 🐛 Bug Reports: [Issues](https://github.com/Baran-Kamvar/Image-Converter/issues)  
+- 💬 Q&A: [Discussions](https://github.com/username/Image-Converter/discussions)  
+- 📧 Email: [barankamvar1@gmail.com](mailto:barankamvar1@gmail.com)
