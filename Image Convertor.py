@@ -1,4 +1,5 @@
 import argparse
+import sys
 import os
 import threading
 from pathlib import Path
@@ -116,7 +117,7 @@ class ImageConverterApp:
             "jpg": "jpg_icon.png",
             "jpeg": "jpeg_icon.png",
             "png": "png_icon.png",
-            "heic":"heic_icon.png",
+            "heic": "heic_icon.png",
             "tif": "tif_icon.png",
             "tiff": "tiff_icon.png",
             "bmp": "bmp_icon.png",
@@ -125,8 +126,15 @@ class ImageConverterApp:
             "start": "start_icon.png",
             "status": "status_icon.png",
         }
+
+        def resource_path(relative_path):
+            # correct path of the files when the exe is built
+            if hasattr(sys, '_MEIPASS'):
+                return os.path.join(sys._MEIPASS, relative_path)
+            return os.path.join(os.path.abspath("."), relative_path)
+
         for key, filename in icon_files.items():
-            file_path = os.path.join(icons_dir, filename)
+            file_path = resource_path(os.path.join(icons_dir, filename))  # ← مهم
             try:
                 pil_image = Image.open(file_path).resize(icon_size, Image.LANCZOS)
                 icons[key] = ctk.CTkImage(light_image=pil_image, dark_image=pil_image, size=icon_size)
