@@ -79,7 +79,7 @@ class ImageConverterApp:
         self.root.title("Image Converter")
         self.root.geometry("600x575")  # 25% smaller: 800→600, 880→640 (با بهینه‌سازی layout)
         self.root.resizable(True, True)
-        self.root.minsize(500, 450)  # 25% smaller: 650→488→500 (rounded)
+        self.root.minsize(650, 650)  # 25% smaller: 650→488→500 (rounded)
         self.root.configure(bg="#0F172A")
 
         self.colors = {
