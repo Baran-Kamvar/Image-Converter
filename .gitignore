@@ -16,8 +16,6 @@ env/
 build/
 *.spec
 
-# PyInstaller
-*.exe
 
 # Logs
 *.log
